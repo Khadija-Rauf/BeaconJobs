@@ -1,0 +1,25 @@
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    /* border: 3px solid #0c84b7; */
+  }
+  
+  tbody th {
+    background-color: #0c84b7;
+    color: #fff;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) th {
+    background-color: #0c84b7;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
